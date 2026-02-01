@@ -1,1 +1,4 @@
-// Reserved for future animations or interactions
+AOS.init({
+  duration: 1000,
+  once: true
+});
