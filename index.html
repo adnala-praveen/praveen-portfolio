@@ -1,144 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Adnala Praveen | MBA Finance</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adnala Praveen | MBA Finance Portfolio</title>
 
-  <!-- Google Font (Same feel as reference site) -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  </style>
 
-  <!-- AOS Animation CSS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
-<!-- ===== HEADER ===== -->
-<header>
-  <div class="logo">Praveen</div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <a href="https://www.linkedin.com/in/praveen-adnala" target="_blank">
-      <i class="fab fa-linkedin"></i>
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo">
+      <span class="logo-chevron">&lt;</span> Adnala <span class="logo-slash">&sol;</span> Praveen
+      <span class="logo-chevron">&gt;</span>
     </a>
-  </nav>
-</header>
 
-<!-- ===== HOME ===== -->
-<section class="home" id="home">
-  <div class="home-text" data-aos="fade-right">
-    <h3>Hello, I’m</h3>
-    <h1>Adnala <span>Praveen</span></h1>
-    <h2>MBA (Finance)</h2>
-    <p>
-      Motivated MBA Finance student with strong analytical and accounting skills,
-      seeking an entry-level finance role to apply academic knowledge in real-world
-      business decision-making.
+    <div class="nav-icons">
+      <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+      </button>
+      <i class='bx bx-menu' id="menu-icon"></i>
+    </div>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="home-wrapper">
+
+      <div class="home-content">
+        <h1>Hi, I'm <span>Adnala Praveen</span></h1>
+        <h3><span>MBA Finance Graduate</span></h3>
+
+        <p>
+          A motivated <b>MBA (Finance)</b> student with strong academic knowledge in
+          <b>financial analysis</b>, <b>accounting principles</b>, and <b>business operations</b>.
+          Skilled in <b>MS Excel</b>, <b>Tally ERP</b>, and basic <b>SQL</b>.
+          Seeking an entry-level finance role to apply analytical skills to real-world
+          financial decision-making and organizational growth.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/praveen-adnala" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://wa.me/919390789080" target="_blank">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </div>
+
+        <div class="btn-group">
+          <a href="./Adnala_Praveen_Resume.pdf" class="btn" download>Download CV</a>
+          <a href="mailto:adnalapraveen@gmail.com" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./profile.jpg" alt="Adnala Praveen">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-wrapper">
+
+      <div class="about-img">
+        <img src="./profile2.jpg" alt="About Praveen">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+
+        <p>
+          I am an MBA (Finance) student with a solid foundation in
+          <b>financial accounting</b>, <b>ratio analysis</b>, and <b>data interpretation</b>.
+          I have hands-on experience using <b>MS Excel</b> for financial analysis and reporting,
+          <b>Tally ERP</b> for accounting operations, and basic <b>SQL</b> for data querying.
+          I am detail-oriented, analytical, and committed to continuous learning.
+        </p>
+
+        <div class="about-stats">
+          <div class="about-stat">
+            <span class="about-stat-number">1+</span>
+            <span class="about-stat-label">Finance Projects</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-number">MBA</span>
+            <span class="about-stat-label">Finance</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-number">100%</span>
+            <span class="about-stat-label">Dedication</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="timeline-items">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2024 – Present</div>
+        <div class="timeline-content">
+          <h3>MBA (Finance)</h3>
+          <p><b>MRCET</b> | Aggregate: <b>8.80</b> (Pursuing)</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2021 – 2024</div>
+        <div class="timeline-content">
+          <h3>Bachelor of Commerce (CA)</h3>
+          <p><b>Osmania University</b> | Aggregate: <b>9.12</b></p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019 – 2021</div>
+        <div class="timeline-content">
+          <h3>Intermediate (MEC)</h3>
+          <p>Percentage: <b>88%</b></p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2014 – 2019</div>
+        <div class="timeline-content">
+          <h3>SSC</h3>
+          <p>Aggregate: <b>8.5</b></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+      <div class="skill-card"><h3>MS Excel (Advanced)</h3></div>
+      <div class="skill-card"><h3>Tally ERP</h3></div>
+      <div class="skill-card"><h3>Financial Analysis</h3></div>
+      <div class="skill-card"><h3>Accounting Principles</h3></div>
+      <div class="skill-card"><h3>Ratio Analysis</h3></div>
+      <div class="skill-card"><h3>Business Analytics</h3></div>
+      <div class="skill-card"><h3>SQL (Basic)</h3></div>
+      <div class="skill-card"><h3>Data Interpretation</h3></div>
+      <div class="skill-card"><h3>Communication Skills</h3></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h2 class="heading">Academic <span>Project</span></h2>
+
+    <div class="projects-container">
+
+      <div class="project-box">
+        <div class="project-info">
+          <h3>Financial Performance Analysis of Dr. Reddy’s Laboratories Ltd</h3>
+
+          <p>
+            Conducted a comprehensive financial performance analysis using secondary data
+            from annual reports. Evaluated profitability, liquidity, and solvency ratios,
+            performed trend analysis, and interpreted balance sheet and income statement data
+            using MS Excel. Prepared a structured academic report under faculty guidance.
+          </p>
+
+          <div class="project-tags">
+            <span>Financial Analysis</span>
+            <span>MS Excel</span>
+            <span>Ratio Analysis</span>
+            <span>Financial Statements</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form>
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="adnalapraveen@gmail.com">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="+91 9390789080">
+          <input type="text" placeholder="Subject">
+        </div>
+      </div>
+
+      <div class="input-group-2">
+        <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </div>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="copyright">
+      &copy; 2025 All rights reserved by <span>Adnala Praveen</span>
     </p>
-    <a href="assets/Adnala_Praveen_Resume.pdf" class="btn" download>
-      Download Resume
-    </a>
-  </div>
+  </footer>
 
-  <div class="home-img" data-aos="fade-left">
-    <img src="assets/praveen.jpg" alt="Adnala Praveen">
-  </div>
-</section>
+  <!-- THEME SCRIPT -->
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const icon = themeToggle.querySelector('i');
 
-<!-- ===== ABOUT ===== -->
-<section class="about" id="about" data-aos="fade-up">
-  <h2>About Me</h2>
-  <p>
-    I am an MBA student specializing in Finance with hands-on exposure to
-    financial analysis, accounting principles, Excel-based reporting, and
-    business operations. I am a quick learner, detail-oriented, and eager
-    to contribute to organizational growth.
-  </p>
-</section>
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      icon.className = savedTheme === 'light' ? 'fas fa-sun' : 'fas fa-moon';
+    }
 
-<!-- ===== EDUCATION ===== -->
-<section class="education" id="education">
-  <h2 data-aos="fade-up">Education</h2>
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
-  <div class="card" data-aos="fade-up">
-    <h3>MBA – Finance</h3>
-    <p>MRCET (Pursuing)</p>
-    <p>CGPA: 8.80</p>
-  </div>
-
-  <div class="card" data-aos="fade-up" data-aos-delay="100">
-    <h3>B.Com (CA)</h3>
-    <p>Osmania University</p>
-    <p>CGPA: 9.12</p>
-  </div>
-
-  <div class="card" data-aos="fade-up" data-aos-delay="200">
-    <h3>Intermediate (MEC)</h3>
-    <p>Percentage: 88%</p>
-  </div>
-
-  <div class="card" data-aos="fade-up" data-aos-delay="300">
-    <h3>SSC</h3>
-    <p>CGPA: 8.5</p>
-  </div>
-</section>
-
-<!-- ===== SKILLS ===== -->
-<section class="skills" id="skills">
-  <h2 data-aos="fade-up">Skills</h2>
-
-  <div class="skills-box" data-aos="zoom-in">
-    <span>Tally ERP</span>
-    <span>MS Excel</span>
-    <span>Finance & Accounting</span>
-    <span>SQL (Basics)</span>
-    <span>MS Word</span>
-    <span>PowerPoint</span>
-    <span>Communication Skills</span>
-  </div>
-</section>
-
-<!-- ===== PROJECTS ===== -->
-<section class="projects" id="projects">
-  <h2 data-aos="fade-up">Academic Project</h2>
-
-  <div class="card" data-aos="fade-up">
-    <h3>Financial Performance Analysis of Dr. Reddy’s Laboratories Ltd</h3>
-    <ul>
-      <li>Analyzed profitability, liquidity & solvency ratios</li>
-      <li>Performed trend analysis using financial statements</li>
-      <li>Used MS Excel for calculations, tables & charts</li>
-      <li>Prepared a structured financial analysis report</li>
-    </ul>
-  </div>
-</section>
-
-<!-- ===== CONTACT ===== -->
-<section class="contact" id="contact" data-aos="fade-up">
-  <h2>Contact</h2>
-  <p><i class="fas fa-phone"></i> +91 9390789080</p>
-  <p><i class="fas fa-envelope"></i> adnalapraveen@gmail.com</p>
-</section>
-
-<!-- ===== FOOTER ===== -->
-<footer>
-  <p>© 2026 Adnala Praveen | MBA Finance</p>
-</footer>
-
-<!-- ===== SCRIPTS ===== -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="script.js"></script>
+      document.documentElement.setAttribute('data-theme', newTheme);
+      icon.className = newTheme === 'light' ? 'fas fa-sun' : 'fas fa-moon';
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
 
 </body>
 </html>
